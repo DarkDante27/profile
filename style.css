@@ -24,7 +24,8 @@
   font-family: 'Noto Sans', sans-serif;
   font-size: 50px
   width: 500px;
-  margin: 25 auto;
+  margin: -24 -10;
+  background-color: rgb(240 240 240);
 }
 
 #profile-pic {
@@ -72,7 +73,7 @@
 
 .button a {
   padding: 6 4 6 4;
-  color: rgb(50 50 50);
+  color: #1A1A1A;
   background-color: rgb(196 196 196);
   border-radius: 12px;
   text-decoration: none;
@@ -89,7 +90,7 @@
   border: solid;
   text-align: center;
   width: 710;
-  margin: 25 auto;
+  margin: 0 auto;
   color: #564D80;
   border: 1px solid lightgrey;
   box-shadow: 1px 1px lightgrey;
@@ -114,5 +115,10 @@
 
 .footer a:hover {
   color: #354F77;
+}
+
+#music {
+  width: 400px;
+  padding: 0 500;
 }
 
